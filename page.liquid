@@ -1,0 +1,13 @@
+<div class="container">
+  <h1 class="page-title">
+    {{ page.title | editable }}
+  </h1>
+  {% comment %}
+    Делаем пермалинк страницы вручную
+  {% endcomment %}
+  {% assign page_handle = page.url | split: '/' | last %}
+
+  <div class="page-content page-{{ page_handle }}">
+    {{ page.content | editable }}
+  </div>
+</div>

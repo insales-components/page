@@ -1,0 +1,15 @@
+{
+  "name": "page",
+  "version": "1.0.0",
+  "description": "Шаблон текстовой страницы",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/page",
+  "props": {
+    "common": false,
+    "liquid": true
+  },
+  "dependencies": {
+    "cellsio": "https://github.com/insales-components/cellsio"
+  }
+}
